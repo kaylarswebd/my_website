@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/main.js"> </script>
+<link rel="stylesheet" href="css/indexcss.css">
+<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39|Orbitron|Permanent+Marker|Raleway" rel="stylesheet">
+
+<style>
+
+</style>
+
+</head>
+	
+<body>
+<video autoplay muted loop id="myVideo">
+  <source src="video/Neon.mp4" type="video/mp4">
+</video>
+	
+  <!--navigation-->
+	<!--NAVIGATION-->
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a href="websites.html">Websites</a></li>
+		<li class="dropdown">
+			<div class="dropbtn"><a>Photography</a>
+			<div class="dropdown-content">
+			<a href="photography_page1.html">Page 1</a>
+			<a href="photography_page2.html">Page 2</a>
+			</div>
+		    </div>
+		</li>
+        <li><a href="adobe.html">Adobe Creations</a></li>
+        <li><a href="contact.html">Contact Information</a></li>
+      </ul>
+	
+<button id="myBtn2" onclick="myFunction2()">Pause Background</button>
+
+<div class="logo"> 
+	<img src="images/retro_logo.gif" style="max-width: 250px; padding: 10px;" alt="logo"> 
+</div>
+	
+<div class="content"> 
+	
+  <section class="header">
+    <h1>Kyle R. Larson</h1>
+    <h5>Professional Web Design and Development</h5>
+  </section>
+  
+  <!--<audio controls autoplay>
+<source src="../music/Paradise - Beautiful Trance (March 2017 Mix 76).mp3" type="audio/mpeg">
+</audio><br>--> 
+  
+  <!--icons-->
+<div> <a href="https://github.com/thekaylars" target="_blank"> <img src="images/socialmedia_icons/Github.png" alt="github" class="social"/></a> <a href="https://www.linkedin.com/in/kyle-larson-4b15b2179/" target="_blank"> <img src="images/socialmedia_icons/Linkedin.png" alt="linkedin" class="social"/></a> <a href="https://www.facebook.com/kyle.larson.7737769" target="_blank"> <img src="images/socialmedia_icons/Facebook.png" alt="facebook" class="social"/></a> <a href="https://www.youtube.com/channel/UCibcUoJKm7mF8Xaldd9uJYQ?view_as=subscriber" target="_blank"> <img src="images/socialmedia_icons/YouTube.png" alt="youtube" class="social"/></a> 
+</div>
+	
+<div>Kyle Larson Wed Design / Development &copy 2019</div>
+	
+<script>
+// When the user clicks on the button, scroll to the top of the document
+function topFunction2() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn2");
+
+function myFunction2() {
+if (video.paused) {
+video.play();
+btn.innerHTML = "Pause";
+} else {
+video.pause();
+btn.innerHTML = "Play";
+}
+}
+</script>
+	
+</div>
+</body>
+</html>
