@@ -1,12 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
-
 * {
 	box-sizing: border-box;
 }
+
+/*LOGO ANIMATION*/
 .logo img {
 	z-index: -1;
-	text-align: center;
+	text-align: left;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -27,10 +28,12 @@
   from {top: -500px;}
   to {top: 30px;}
 }
+
+/*HEADER*/
 .header {
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
-	text-shadow: 4px 2px 8px rgb(116,240,252);
+	/*text-shadow: 4px 2px 8px rgb(116,240,252);*/
 }
 body {
 	margin: 0;
@@ -58,9 +61,6 @@ body {
 }
 .content p {
 	text-indent: 20px;
-}
-#myBtn {
-
 }
 
 /*NAVIGATION BAR*/
@@ -128,7 +128,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  width: 300px;
+  width: 200px;
   height: 38px;
   padding: 0 30px;
   color: white;
@@ -178,4 +178,4 @@ input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+	border-color: #1EAEDB; }

@@ -15,7 +15,7 @@
 	
 <body>
 <video autoplay muted loop id="myVideo">
-  <source src="video/Neon.mp4" type="video/mp4">
+  <source src="video/Ball.mp4" type="video/mp4">
 </video>
 	
   <!--navigation-->
@@ -38,13 +38,31 @@
 	
 <button id="myBtn2" onclick="myFunction2()">Pause Background</button>
 
-<div class="logo"> 
+<!--<div class="logo"> 
 	<img src="images/retro_logo.gif" style="max-width: 250px; padding: 10px;" alt="logo"> 
-</div>
+</div>-->
 	
-<div class="content"> 
+<div class="content">
 	
+<script>
+var today = new Date();
+var hourNow = today.getHours();
+var greeting;
+
+if (hourNow > 18) {
+	greeting = 'Good Evening and Welcome!';
+} else if (hourNow > 12) {
+	greeting = 'Good Afternoon and Welcome!';
+} else if (hourNow > 0) {
+	greeting = 'Good Morning and Welcome!';
+} else {
+	greeting = 'Welcome!'
+}
+document.write('<h1>' + greeting + '</h1>');
+</script>
+
   <section class="header">
+	 <h5>This is the website of</h5>
     <h1>Kyle R. Larson</h1>
     <h5>Professional Web Design and Development</h5>
   </section>

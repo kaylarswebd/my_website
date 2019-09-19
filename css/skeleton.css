@@ -231,7 +231,7 @@ label > .label-body {
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-code {
+/*code {
   padding: .2rem .5rem;
   margin: 0 .2rem;
   font-size: 90%;
@@ -242,7 +242,7 @@ code {
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
-  white-space: pre; }
+  white-space: pre; }*/
 
 
 /* Tables
@@ -262,7 +262,7 @@ td:last-child {
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-button,
+/*button,
 .button {
   margin-bottom: 1rem; }
 input,
@@ -279,12 +279,12 @@ p,
 ul,
 ol,
 form {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem; }*/
 
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.u-full-width {
+/*.u-full-width {
   width: 100%;
   box-sizing: border-box; }
 .u-max-full-width {
@@ -293,16 +293,16 @@ form {
 .u-pull-right {
   float: right; }
 .u-pull-left {
-  float: left; }
+  float: left; }*/
 
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-hr {
+/*hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #E1E1E1; }
+  border-top: 1px solid #E1E1E1; }*/
 
 
 /* Clearing
