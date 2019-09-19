@@ -1,10 +1,12 @@
 /* Larger than mobile */
-@media (min-width: 400px) {
-
+@media (min-width: 425px) {
 */*{text-align: center}*/
 .column, .columns {/*border: 3px solid black*/;}
 img {width: 100%;
 	height: 100%;}
+.header img {
+  max-width: 250px;
+}
 .header{
 	/*background-color: black;*/
   color: white;
@@ -117,16 +119,18 @@ textarea[name=messages] {
 
 
 /* Smaller than mobile */
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 	
 */*{text-align: center}*/
 .column, .columns {/*border: 3px solid black*/;}
 img {width: 100%;
 	height: 100%;}
-	
+.header img {
+  max-width: 200px;
+}
 .header{
 	/*background-color: black;*/
-	z-index: -1;
+  z-index: -1;
   color: white;
   text-align: center;
   margin-top: -50px;
@@ -166,6 +170,7 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
+	font-size: .80em;
 }
 li {
 	/*float: left;*/
@@ -187,8 +192,9 @@ li a:hover {
 .dropbtn {
   color: white;
   padding: 14px;
-  font-size: 16px;
+  /*font-size: 16px;*/
   border: none;
+	
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -233,7 +239,6 @@ textarea[name=messages] {
 /*#footer {
 	align-text: center;
 }*/
-}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
