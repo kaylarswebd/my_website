@@ -15,16 +15,3 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-
-function myFunction() {
-if (video.paused) {
-video.play();
-btn.innerHTML = "Pause";
-} else {
-video.pause();
-btn.innerHTML = "Play";
-}
-}
